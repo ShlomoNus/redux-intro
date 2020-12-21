@@ -7,4 +7,5 @@ const mainReducer = combineReducers({
 })
 const store = createStore(mainReducer)
 
+
 module.exports = store
