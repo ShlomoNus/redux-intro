@@ -5,7 +5,9 @@ const initialState =[
 const citiesReducer = (state=initialState,action) =>{
     switch (action.type) {
         case "ADD CITY":
-            return [...state].push(action.payload)
+            const copy =[...state]
+            copy.push(action.payload)
+            return copy;
     
         default:
             return state

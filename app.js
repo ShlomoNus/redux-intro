@@ -1,3 +1,4 @@
 const store = require('./store')
 
-console.log(store.getState()['cities']);
+store.dispatch({type:"ADD CITY", payload:'Bne-Bral'})
+console.log(store.getState());
