@@ -1,3 +1,6 @@
+
+
+//initial state as array - it is posible;
 const initialState =[
    'Ashdod','Jerusalem','Tel-Aviv'
 ]

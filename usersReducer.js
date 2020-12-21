@@ -1,3 +1,5 @@
+//initial state as array - most used one;
+
 const initialState =[
     {name:'shlomo',age:31},{name:'lea',age:30},{name:'michal',age:4},{name:'avigail',age:2},
 ]
